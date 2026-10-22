@@ -2,7 +2,7 @@
 
 ## Interior Design Planning
 
-These prompts have the AI act as an interior design professional to help plan improvements to a single room or a whole home. They cover full room redesigns at different budgets, furniture layout, color schemes, layered lighting, adapting a room to a specific style, and a prioritized 12-month renovation plan. Replace the `[BRACKETED]` placeholders with your own details before using a prompt; options inside a bracket are separated by `/`.
+These prompts have the AI act as an interior design professional to help plan improvements to a single room or a whole home. They cover full room redesigns at different budgets, a shopping list for the chosen redesign, furniture layout, color schemes, layered lighting, adapting a room to a specific style, and a prioritized 12-month renovation plan. Replace the `[BRACKETED]` placeholders with your own details before using a prompt; options inside a bracket are separated by `/`.
 
 ### 1. Room Redesign Prompt
 
@@ -25,14 +25,19 @@ For each, describe the four most impactful changes to make first and why they wo
 ### 2. Shopping List Prompt
 
 ```text
-Act as a space planner.
+Act as a professional buyer for a luxury interior design firm.
 
-My [ROOM TYPE] is [LENGTH] by [WIDTH] feet and I currently have these pieces of furniture: [LIST EACH ITEM].
+Based on the [DESIGN DIRECTION: budget / mid-range / premium] redesign we just created, build me a complete shopping list.
+My total budget is $[YOUR BUDGET].
 
-The main problem with the current arrangement is [SPECIFIC PROBLEM: the room feels cramped / there is no clear focal point / traffic flow is bad / the space feels too empty].
+For every item you recommended, find a real equivalent available on Amazon right now.
+Include the approximate cost and a note on why it works in this design.
 
-Give me three different arrangements that solve this problem.
-For each one, draw a simple text diagram and explain why this layout works better than what I have now.
+Organize by category:
+- Furniture first
+- Then lighting
+- Textiles
+- Decor
 ```
 
 ### 3. Color Consultant Prompt
