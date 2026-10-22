@@ -2,6 +2,8 @@
 
 ## Interior Design Planning
 
+These prompts have the AI act as an interior design professional to help plan improvements to a single room or a whole home. They cover full room redesigns at different budgets, furniture layout, color schemes, layered lighting, adapting a room to a specific style, and a prioritized 12-month renovation plan. Replace the `[BRACKETED]` placeholders with your own details before using a prompt; options inside a bracket are separated by `/`.
+
 ### 1. Room Redesign Prompt
 
 ```text
